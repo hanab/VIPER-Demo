@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UWj-4r-S0R">
-                                <rect key="frame" x="20" y="0.0" width="374" height="716"/>
+                                <rect key="frame" x="20" y="20" width="374" height="696"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="80" id="CYi-rs-k0F" customClass="ShiftCustomTableViewCell" customModule="VIPER_Demo" customModuleProvider="target">
@@ -178,7 +178,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="UWj-4r-S0R" secondAttribute="trailing" constant="20" id="57D-bV-H4n"/>
                             <constraint firstItem="tfB-Ex-mEp" firstAttribute="top" secondItem="UWj-4r-S0R" secondAttribute="bottom" constant="20" id="DZF-gt-sA3"/>
-                            <constraint firstItem="UWj-4r-S0R" firstAttribute="top" secondItem="ie9-tV-dje" secondAttribute="bottom" constant="-64" id="hGe-Ng-0qH"/>
+                            <constraint firstItem="UWj-4r-S0R" firstAttribute="top" secondItem="ie9-tV-dje" secondAttribute="bottom" constant="-44" id="hGe-Ng-0qH"/>
                             <constraint firstItem="UWj-4r-S0R" firstAttribute="leading" secondItem="5i8-PO-bYv" secondAttribute="leading" constant="20" id="nPo-dP-qfO"/>
                         </constraints>
                     </view>
