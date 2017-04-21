@@ -18,6 +18,7 @@ class ShiftsListViewController: UIViewController {
     //MARK: Viewcontroller lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Shifts"
         presenter?.viewDidLoad()
         
         tableView.delegate = self

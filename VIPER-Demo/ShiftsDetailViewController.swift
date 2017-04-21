@@ -24,6 +24,7 @@ class ShiftsDetailViewController: UIViewController {
     //MARK: ViewController lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Shift Detail"
         presenter?.viewDidLoad()
     }
 }
