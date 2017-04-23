@@ -34,6 +34,6 @@ class TestPresenter: XCTestCase {
     func testDataTransferdFromPresenterToView() {
         presenter.didFinishFetchingShifts(shifts)
         XCTAssertTrue(view.showShiftsCalled)
-        XCTAssert(view.shiftList.count == 1, "more or less Users than expected \(view.shiftList.count)")
+        XCTAssert(view.shiftList.count == 1, "more or less Shifts than expected \(view.shiftList.count)")
     }
 }
