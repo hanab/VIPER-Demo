@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0AF7561EACA72E008984B7 /* ApiClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF7551EACA72E008984B7 /* ApiClientMock.swift */; };
+		1A0AF7581EACAF22008984B7 /* PresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF7571EACAF22008984B7 /* PresenterMock.swift */; };
+		1A0AF75A1EACBF87008984B7 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF7591EACBF87008984B7 /* TestPresenter.swift */; };
+		1A0AF75C1EACC02E008984B7 /* ViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AF75B1EACC02E008984B7 /* ViewMock.swift */; };
+		1A0B84031EAB978A00ADB061 /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B84021EAB978A00ADB061 /* TestInteractor.swift */; };
+		1A0F19761EAB613100C7D5C4 /* AppDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F19751EAB613100C7D5C4 /* AppDelegateTest.swift */; };
+		1A0FC0F51EAB760F00E39B00 /* APIResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC0F41EAB760F00E39B00 /* APIResponseTest.swift */; };
+		1A0FC0F81EAB881800E39B00 /* InteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC0F71EAB881800E39B00 /* InteractorMock.swift */; };
 		1A4B6CF71EA89E9C006CB516 /* ShiftsDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B6CF61EA89E9C006CB516 /* ShiftsDetailWireframe.swift */; };
 		1A4B6CF91EA89EC3006CB516 /* ShiftsDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B6CF81EA89EC3006CB516 /* ShiftsDetailPresenter.swift */; };
 		1A4B6CFB1EA8A846006CB516 /* ShiftsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B6CFA1EA8A846006CB516 /* ShiftsDetailViewController.swift */; };
 		1A4B6CFD1EA8EE2C006CB516 /* ShiftCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B6CFC1EA8EE2C006CB516 /* ShiftCustomTableViewCell.swift */; };
+		1A4B6CFF1EAB5AA7006CB516 /* ShiftModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B6CFE1EAB5AA7006CB516 /* ShiftModelTest.swift */; };
 		1A5C666E1EA772EA005E3DF6 /* TransportationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C666D1EA772EA005E3DF6 /* TransportationTypes.swift */; };
 		1A5C66701EA782D6005E3DF6 /* ShiftsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C666F1EA782D6005E3DF6 /* ShiftsListInteractor.swift */; };
 		1A5C66731EA785D2005E3DF6 /* RootWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C66721EA785D2005E3DF6 /* RootWireframeProtocol.swift */; };
@@ -28,6 +37,7 @@
 		1A81E5E91EA747A900EB5268 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A81E5E81EA747A900EB5268 /* Shift.swift */; };
 		1A81E5EB1EA7494300EB5268 /* ShiftsListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A81E5EA1EA7494300EB5268 /* ShiftsListContract.swift */; };
 		D1A837B39130617C0878B127 /* Pods_VIPER_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0AE58EE954B0A09F2B88E9 /* Pods_VIPER_Demo.framework */; };
+		DE5CBE20CC64531CFBE13B70 /* Pods_VIPER_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10978C8509828C18255CCAEF /* Pods_VIPER_DemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DC7215604614E1603475169 /* Pods-VIPER-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER-DemoTests/Pods-VIPER-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		10978C8509828C18255CCAEF /* Pods_VIPER_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F15852A1BE6469DB60CA58 /* Pods-VIPER-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER-DemoTests/Pods-VIPER-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A0AF7551EACA72E008984B7 /* ApiClientMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClientMock.swift; sourceTree = "<group>"; };
+		1A0AF7571EACAF22008984B7 /* PresenterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterMock.swift; sourceTree = "<group>"; };
+		1A0AF7591EACBF87008984B7 /* TestPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
+		1A0AF75B1EACC02E008984B7 /* ViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMock.swift; sourceTree = "<group>"; };
+		1A0B84021EAB978A00ADB061 /* TestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
+		1A0F19751EAB613100C7D5C4 /* AppDelegateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTest.swift; sourceTree = "<group>"; };
+		1A0FC0F41EAB760F00E39B00 /* APIResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseTest.swift; sourceTree = "<group>"; };
+		1A0FC0F71EAB881800E39B00 /* InteractorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorMock.swift; sourceTree = "<group>"; };
 		1A4B6CF61EA89E9C006CB516 /* ShiftsDetailWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftsDetailWireframe.swift; sourceTree = "<group>"; };
 		1A4B6CF81EA89EC3006CB516 /* ShiftsDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftsDetailPresenter.swift; sourceTree = "<group>"; };
 		1A4B6CFA1EA8A846006CB516 /* ShiftsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftsDetailViewController.swift; sourceTree = "<group>"; };
-		1A4B6CFC1EA8EE2C006CB516 /* ShiftCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShiftCustomTableViewCell.swift; path = ../../../../Documents/ShiftCustomTableViewCell.swift; sourceTree = "<group>"; };
+		1A4B6CFC1EA8EE2C006CB516 /* ShiftCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftCustomTableViewCell.swift; sourceTree = "<group>"; };
+		1A4B6CFE1EAB5AA7006CB516 /* ShiftModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftModelTest.swift; sourceTree = "<group>"; };
 		1A5C666D1EA772EA005E3DF6 /* TransportationTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypes.swift; sourceTree = "<group>"; };
 		1A5C666F1EA782D6005E3DF6 /* ShiftsListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftsListInteractor.swift; sourceTree = "<group>"; };
 		1A5C66721EA785D2005E3DF6 /* RootWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframeProtocol.swift; sourceTree = "<group>"; };
@@ -83,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5CBE20CC64531CFBE13B70 /* Pods_VIPER_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +116,65 @@
 			isa = PBXGroup;
 			children = (
 				4F0AE58EE954B0A09F2B88E9 /* Pods_VIPER_Demo.framework */,
+				10978C8509828C18255CCAEF /* Pods_VIPER_DemoTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A0B84011EAB976C00ADB061 /* Module Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B84021EAB978A00ADB061 /* TestInteractor.swift */,
+				1A0AF7591EACBF87008984B7 /* TestPresenter.swift */,
+			);
+			name = "Module Tests";
+			path = "Modules Test";
+			sourceTree = "<group>";
+		};
+		1A0F19721EAB60D000C7D5C4 /* Appdelegate Test */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F19751EAB613100C7D5C4 /* AppDelegateTest.swift */,
+			);
+			path = "Appdelegate Test";
+			sourceTree = "<group>";
+		};
+		1A0F19731EAB60E200C7D5C4 /* Modules Test */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B84011EAB976C00ADB061 /* Module Tests */,
+				1A0FC0F61EAB87F000E39B00 /* Mocks */,
+			);
+			path = "Modules Test";
+			sourceTree = "<group>";
+		};
+		1A0F19741EAB60EF00C7D5C4 /* Datamanager Test */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC0F41EAB760F00E39B00 /* APIResponseTest.swift */,
+			);
+			name = "Datamanager Test";
+			path = DataManagerTest;
+			sourceTree = "<group>";
+		};
+		1A0FC0F61EAB87F000E39B00 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FC0F71EAB881800E39B00 /* InteractorMock.swift */,
+				1A0AF7551EACA72E008984B7 /* ApiClientMock.swift */,
+				1A0AF7571EACAF22008984B7 /* PresenterMock.swift */,
+				1A0AF75B1EACC02E008984B7 /* ViewMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		1A4B6D001EAB5AAD006CB516 /* Model Test */ = {
+			isa = PBXGroup;
+			children = (
+				1A4B6CFE1EAB5AA7006CB516 /* ShiftModelTest.swift */,
+			);
+			name = "Model Test";
+			path = " Model Test";
 			sourceTree = "<group>";
 		};
 		1A5C666B1EA772B3005E3DF6 /* Common */ = {
@@ -102,7 +182,7 @@
 			children = (
 				1A5C666C1EA772BF005E3DF6 /* Enums */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		1A5C666C1EA772BF005E3DF6 /* Enums */ = {
@@ -110,7 +190,7 @@
 			children = (
 				1A5C666D1EA772EA005E3DF6 /* TransportationTypes.swift */,
 			);
-			name = Enums;
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		1A5C66711EA785B2005E3DF6 /* Contract */ = {
@@ -118,7 +198,7 @@
 			children = (
 				1A5C66721EA785D2005E3DF6 /* RootWireframeProtocol.swift */,
 			);
-			name = Contract;
+			path = Contract;
 			sourceTree = "<group>";
 		};
 		1A5C66741EA7864D005E3DF6 /* Wireframe */ = {
@@ -126,7 +206,7 @@
 			children = (
 				1A5C66751EA78672005E3DF6 /* RootWireframe.swift */,
 			);
-			name = Wireframe;
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		1A81E5A01EA6C38F00EB5268 = {
@@ -166,6 +246,10 @@
 		1A81E5C01EA6C38F00EB5268 /* VIPER-DemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				1A0F19741EAB60EF00C7D5C4 /* Datamanager Test */,
+				1A0F19731EAB60E200C7D5C4 /* Modules Test */,
+				1A0F19721EAB60D000C7D5C4 /* Appdelegate Test */,
+				1A4B6D001EAB5AAD006CB516 /* Model Test */,
 				1A81E5C11EA6C38F00EB5268 /* VIPER_DemoTests.swift */,
 				1A81E5C31EA6C38F00EB5268 /* Info.plist */,
 			);
@@ -203,7 +287,7 @@
 			children = (
 				1A81E5E31EA73AA200EB5268 /* ShiftsAPIClient.swift */,
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		1A81E5D41EA7386E00EB5268 /* Modules */ = {
@@ -213,7 +297,7 @@
 				1A81E5D61EA7389C00EB5268 /* ShiftsDetail */,
 				1A81E5D51EA7388900EB5268 /* ShiftsList */,
 			);
-			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		1A81E5D51EA7388900EB5268 /* ShiftsList */ = {
@@ -225,7 +309,7 @@
 				1A81E5D91EA7396700EB5268 /* Interactor */,
 				1A81E5D81EA7395E00EB5268 /* Contract */,
 			);
-			name = ShiftsList;
+			path = ShiftsList;
 			sourceTree = "<group>";
 		};
 		1A81E5D61EA7389C00EB5268 /* ShiftsDetail */ = {
@@ -236,7 +320,7 @@
 				1A81E5DE1EA739EC00EB5268 /* Wireframe */,
 				1A81E5DD1EA739E500EB5268 /* Presenter */,
 			);
-			name = ShiftsDetail;
+			path = ShiftsDetail;
 			sourceTree = "<group>";
 		};
 		1A81E5D71EA738A500EB5268 /* Root */ = {
@@ -245,7 +329,7 @@
 				1A5C66741EA7864D005E3DF6 /* Wireframe */,
 				1A5C66711EA785B2005E3DF6 /* Contract */,
 			);
-			name = Root;
+			path = Root;
 			sourceTree = "<group>";
 		};
 		1A81E5D81EA7395E00EB5268 /* Contract */ = {
@@ -253,7 +337,7 @@
 			children = (
 				1A81E5EA1EA7494300EB5268 /* ShiftsListContract.swift */,
 			);
-			name = Contract;
+			path = Contract;
 			sourceTree = "<group>";
 		};
 		1A81E5D91EA7396700EB5268 /* Interactor */ = {
@@ -261,7 +345,7 @@
 			children = (
 				1A5C666F1EA782D6005E3DF6 /* ShiftsListInteractor.swift */,
 			);
-			name = Interactor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		1A81E5DA1EA7398800EB5268 /* View */ = {
@@ -270,7 +354,7 @@
 				1A81E5AE1EA6C38F00EB5268 /* ShiftsListViewController.swift */,
 				1A4B6CFC1EA8EE2C006CB516 /* ShiftCustomTableViewCell.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		1A81E5DB1EA7398F00EB5268 /* Wireframe */ = {
@@ -278,7 +362,7 @@
 			children = (
 				1A5C66771EA788DF005E3DF6 /* ShiftsListWireframe.swift */,
 			);
-			name = Wireframe;
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		1A81E5DC1EA739AD00EB5268 /* Presenter */ = {
@@ -286,7 +370,7 @@
 			children = (
 				1A5C667E1EA78BA4005E3DF6 /* ShiftsListPresenter.swift */,
 			);
-			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		1A81E5DD1EA739E500EB5268 /* Presenter */ = {
@@ -294,7 +378,7 @@
 			children = (
 				1A4B6CF81EA89EC3006CB516 /* ShiftsDetailPresenter.swift */,
 			);
-			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		1A81E5DE1EA739EC00EB5268 /* Wireframe */ = {
@@ -302,7 +386,7 @@
 			children = (
 				1A4B6CF61EA89E9C006CB516 /* ShiftsDetailWireframe.swift */,
 			);
-			name = Wireframe;
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		1A81E5E01EA73A0900EB5268 /* View */ = {
@@ -310,7 +394,7 @@
 			children = (
 				1A4B6CFA1EA8A846006CB516 /* ShiftsDetailViewController.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		1A81E5E11EA73A1900EB5268 /* Contract */ = {
@@ -318,7 +402,7 @@
 			children = (
 				1A81E5E51EA7471D00EB5268 /* ShiftsDetailContract.swift */,
 			);
-			name = Contract;
+			path = Contract;
 			sourceTree = "<group>";
 		};
 		1A81E5E21EA73A3900EB5268 /* DataManager */ = {
@@ -326,7 +410,7 @@
 			children = (
 				1A81E5D31EA7385800EB5268 /* Network */,
 			);
-			name = DataManager;
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		1A81E5E71EA7479600EB5268 /* Entities */ = {
@@ -334,7 +418,7 @@
 			children = (
 				1A81E5E81EA747A900EB5268 /* Shift.swift */,
 			);
-			name = Entities;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		36C115945A79947BD42202B8 /* Pods */ = {
@@ -342,6 +426,8 @@
 			children = (
 				BBA52A9C4C5EF63AE28DF6C6 /* Pods-VIPER-Demo.debug.xcconfig */,
 				9D10C8B71B02A2C9DA83AA86 /* Pods-VIPER-Demo.release.xcconfig */,
+				13F15852A1BE6469DB60CA58 /* Pods-VIPER-DemoTests.debug.xcconfig */,
+				0DC7215604614E1603475169 /* Pods-VIPER-DemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -373,9 +459,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A81E5C91EA6C38F00EB5268 /* Build configuration list for PBXNativeTarget "VIPER-DemoTests" */;
 			buildPhases = (
+				73D6C93BBD0C65A4822491E5 /* [CP] Check Pods Manifest.lock */,
 				1A81E5B91EA6C38F00EB5268 /* Sources */,
 				1A81E5BA1EA6C38F00EB5268 /* Frameworks */,
 				1A81E5BB1EA6C38F00EB5268 /* Resources */,
+				F0E4F0943D0169258F73B07B /* [CP] Embed Pods Frameworks */,
+				A00188B16EFB077958021010 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -479,6 +568,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		73D6C93BBD0C65A4822491E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		7BE2243112F73E1959947866 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +596,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A00188B16EFB077958021010 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER-DemoTests/Pods-VIPER-DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E4F0943D0169258F73B07B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER-DemoTests/Pods-VIPER-DemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,7 +658,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0AF7581EACAF22008984B7 /* PresenterMock.swift in Sources */,
+				1A4B6CFF1EAB5AA7006CB516 /* ShiftModelTest.swift in Sources */,
+				1A0FC0F51EAB760F00E39B00 /* APIResponseTest.swift in Sources */,
+				1A0AF7561EACA72E008984B7 /* ApiClientMock.swift in Sources */,
 				1A81E5C21EA6C38F00EB5268 /* VIPER_DemoTests.swift in Sources */,
+				1A0F19761EAB613100C7D5C4 /* AppDelegateTest.swift in Sources */,
+				1A0B84031EAB978A00ADB061 /* TestInteractor.swift in Sources */,
+				1A0AF75C1EACC02E008984B7 /* ViewMock.swift in Sources */,
+				1A0FC0F81EAB881800E39B00 /* InteractorMock.swift in Sources */,
+				1A0AF75A1EACBF87008984B7 /* TestPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,8 +807,9 @@
 		};
 		1A81E5CA1EA6C38F00EB5268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F15852A1BE6469DB60CA58 /* Pods-VIPER-DemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "VIPER-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -678,8 +822,9 @@
 		};
 		1A81E5CB1EA6C38F00EB5268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC7215604614E1603475169 /* Pods-VIPER-DemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "VIPER-DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

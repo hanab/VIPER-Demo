@@ -8,3 +8,11 @@ pod 'AlamofireObjectMapper'
 pod 'Cosmos', '~> 9.0'
 pod 'AlamofireImage'
 end
+
+target 'VIPER-DemoTests' do
+    pod 'ObjectMapper'
+    pod 'Alamofire'
+    pod 'AlamofireObjectMapper'
+    pod 'Cosmos', '~> 9.0'
+    pod 'AlamofireImage'
+end

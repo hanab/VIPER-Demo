@@ -34,9 +34,19 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-VIPER-DemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2E0EC29FBC6C37908A2CDB42962D5744</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
 		<dict>
 			<key>primary</key>

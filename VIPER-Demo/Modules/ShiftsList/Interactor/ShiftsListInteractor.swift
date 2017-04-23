@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ShiftsListInteractor : ShiftsListInteractorInputProtocol {
+class ShiftsListInteractor : NSObject, ShiftsListInteractorInputProtocol {
     
     //MARK: ShiftsListInteractorInputProtocol implementation
     weak var interactorOutput: ShiftsListInteractorOutputProtocol?
@@ -21,11 +21,11 @@ class ShiftsListInteractor : ShiftsListInteractorInputProtocol {
 }
 
 //MARK: extensions
-extension ShiftsListInteractor : ShiftsListAPIManagerOutputProtocol{
+extension ShiftsListInteractor: ShiftsListAPIManagerOutputProtocol {
     
     //MARK: ShiftsListAPIManagerOutputProtocol implementation
-    func shiftsFetched(_ shifts: [Shift]) {
-        interactorOutput?.didFinishFetchingShifts(shifts)
+    func shiftsFetched(_ _shifts: [Shift]) {
+        interactorOutput?.didFinishFetchingShifts(_shifts)
     }
     
     func onError() {

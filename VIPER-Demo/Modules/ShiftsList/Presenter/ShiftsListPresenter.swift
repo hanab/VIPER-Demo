@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ShiftsListPresenter : ShiftsListPresenterProtocol {
+class ShiftsListPresenter : NSObject, ShiftsListPresenterProtocol {
     
     //MARK: ShiftsListPresenterProtocol implementation - Properties
     weak var view: ShiftsListViewProtocol?
